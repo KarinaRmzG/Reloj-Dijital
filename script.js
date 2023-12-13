@@ -10,7 +10,7 @@ function currentTime() {
 
     let time = hh + ":" + mm + ":" + ss;
 
-    let reloj = document.querySelector('#reloj');
+    let reloj = document.getElementById('reloj');
     reloj.innerHTML = time;
 }
 setInterval(currentTime, 1000);
